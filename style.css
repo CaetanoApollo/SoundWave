@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: quicksand;
+}
+
+html body{
+    background-color: #08122B;
+}
+
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #53001D;
+}
+
+#logo{
+    margin-right: 20px;
+    width: 90px;
+}
+
+#perfil{
+    margin-right: 50px;
+    color: #F9EFEE;
+    border-radius: 100%;
+    font-size: 30px;
+}
+
+.title-default{
+    color: #F9EFEE;
+}
+
+/* main */
+
+.font-size{
+    font-size: 10px;
+}
+
+.artists{
+    margin-top: 1vw;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #53001D;
+}
+
+.album{
+    background-color: #050B1B;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.margem{
+    margin-left: 7vw;
+}
+
+.lista-msc{
+    margin-left: 9vh;
+}
+
+.autor{
+    position: relative;
+    left: 8vw;
+}
+
+.letra{
+    font-size: 8px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* footer */
+footer{
+    background-color: #53001D;
+}
